@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/dbateman3/node-todo-api/issues"
   },
-  "homepage": "https://github.com/dbateman3/node-todo-api#readme"
+  "homepage": "https://github.com/dbateman3/node-todo-api#readme",
+  "dependencies": {
+    "mongodb": "^2.2.5"
+  }
 }
