@@ -6,17 +6,18 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', function(err, db) {
 	}
 	console.log('Connected to MongoDB server');
 
-/*
+
 	db.collection('Todos').insertOne({
-		text: 'Something to do',
+		text: 'Eat lunch',
 		completed: false
 	}, function(err, result) {
 		if (err) {
 			return console.log('Unable to insert todo', err);
 		}
+	});
 	
-*/
 
+/*
 	db.collection('Users').insertOne({
 		name: 'Dan Bateman',
 		age: 25,
@@ -28,6 +29,6 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', function(err, db) {
 	
 		console.log(JSON.stringify(result.ops[0]._id.getTimestamp()));
 	});
-
+*/
 	db.close();
 });
