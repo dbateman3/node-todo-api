@@ -33,7 +33,7 @@ app.get('/todos', function(req, res) {
 		});
 	}, function(e) {
 		res.status(400).send(e);
-	})
+	});
 });
 
 module.exports = {
